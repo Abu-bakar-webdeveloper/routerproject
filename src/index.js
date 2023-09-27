@@ -10,6 +10,7 @@ import Home from './Home/Home';
 import About from './About/About';
 import Contact from './Contact/Contact';
 import User from './User/User';
+import { Github } from './Github/Github';
 
 
 
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path='about' element = {<About />} />
       <Route path='contact' element = {<Contact />} />
       <Route path='user/:userid' element = {<User />} />
+      <Route path='github' element = {<Github />} />
 
     </Route>
   )
